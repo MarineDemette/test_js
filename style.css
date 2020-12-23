@@ -1,0 +1,184 @@
+body {
+    background-image: url(https://images4.alphacoders.com/966/thumb-1920-966314.jpg);
+    background-size: 100%;
+}
+
+.darkMode{
+    background-image: url(https://i.imgur.com/GGXD0OR.jpg);
+    color: #ffffff;
+}
+
+.darkMode nav a{
+    color: #ffffff; ;
+}
+
+.button{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+	background: #112F41;
+	box-shadow:2px 2px 8px #112F41;
+	font:bold 13px Arial;
+	color:#ffffff;
+}
+
+.darkMode #button{
+    background-color: #ffffff;
+    color: #112F41;
+    box-shadow:2px 2px 8px #ffffff;
+}
+
+
+
+#Container {
+    background-color: rgba(132, 231, 238, 0.582);
+    width: 750px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgb(27, 27, 27);
+}
+
+.darkMode #Container{
+    background-color: #112e3faf;
+}
+#baneer {
+    background-color: rgba(0, 119, 255, 0.575);
+    text-align: center;
+}
+
+.darkMode #baneer{
+    background-color: #00c3ff8f;
+}
+
+ul {
+    color: rgb(0, 255, 0);
+    list-style-type: none;
+    align-self: auto;
+    
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+h1 {
+    color: rgb(17, 6, 124);
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Ranchers;
+    text-decoration: underline;
+}
+
+.darkMode h1{
+    color: yellowgreen;
+}
+
+section#profil p{
+    color: rgb(9, 69, 124);
+    font-family: Nerko One;
+    text-align: center;
+    font-style: oblique;
+    font-style: bolder;
+    font-size: 20px;
+
+}
+
+.darkMode #profil p{
+    color: white;
+
+}
+
+nav a{
+    font-size: 25px;
+    color: rgb(15, 30, 167);
+    font-family: Permanent Marker;
+}
+
+
+a:visited{
+    color: rgb(97, 25, 212);
+}
+
+.darkMode a:visited{
+    color: yellowgreen;
+}
+
+a:hover{
+    color: rgb(108, 10, 165);
+}
+
+nav a:hover {
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+section#compt{
+    color: rgb(18, 5, 80);
+    font-family: Nerko One;
+    text-align: center;
+}
+
+.darkMode #exp p{
+    color: white;
+
+}
+
+section#exp{
+    color: rgb(55, 19, 139);
+    font-family: Nerko One;
+    text-align: center;
+    font-size: 18px;
+}
+
+h2{
+    text-decoration: underline;
+    color: rgb(5, 37, 221);
+    font-family: Permanent Marker;
+    text-align: center;
+}
+
+.darkMode h2{
+    color: rgb(226, 160, 217);
+}
+
+#tableau{
+    width: 750px;
+    text-align: center;
+}
+
+th, td{
+    border: solid 1px rgb(5, 10, 80);
+    background-color: rgb(42, 81, 165); 
+    color: aliceblue;  
+}
+
+#image{
+    width: 750PX;
+    margin: auto;
+}
+
+#image td{
+    border: none;
+    background-color: rgba(139, 0, 139, 0);
+}
+
+#image, img{
+    width: 235px;
+        
+}
+
+#gallery{
+    text-align: center;
+    color: rgb(34, 71, 139);
+    font-family: sans-serif;
+}
